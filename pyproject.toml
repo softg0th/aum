@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aum"
+version = "0.1.0"
+description = ""
+authors = ["Crush <67077296+softg0th@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+pydantic = "^2.8.2"
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.31"
+asyncpg = "^0.29.0"
+python-dotenv = "^1.0.1"
+alembic = "^1.13.2"
+bcrypt = "^4.1.3"
+sqlmodel = "^0.0.19"
+pyjwt = "^2.8.0"
+redis = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

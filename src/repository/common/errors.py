@@ -1,0 +1,3 @@
+
+class CacheNotInitializedException(Exception):
+    pass
